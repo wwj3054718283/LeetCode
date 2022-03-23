@@ -10,15 +10,19 @@
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
+    // 数组最后一位数 下标
     var len = nums.length - 1
+    // 返回的两数和 两数 下标
     var res = []
+    // 目标与下标len值 的 差
     var _num = 0
+    // 存在 差值 的 下标
     var onum = 0
     // console.log(arr);
     while (1) {
         _num = target - nums[len]
         onum = nums.indexOf(_num)
-        console.log(onum);
+        // console.log(onum);
         if (onum > -1 && len != onum) {
             res.push(onum, len)
             return res
