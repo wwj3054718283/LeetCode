@@ -69,8 +69,8 @@ var romanToInt = function (s) {
     return romanInt
 };
 
-// console.log(romanToInt("III"));
-// console.log(romanToInt("IV"));
-// console.log(romanToInt("IX"));
-// console.log(romanToInt("LVIII"));
-// console.log(romanToInt("MCMXCIV"));
+console.log(romanToInt("III"));
+console.log(romanToInt("IV"));
+console.log(romanToInt("IX"));
+console.log(romanToInt("LVIII"));
+console.log(romanToInt("MCMXCIV"));
