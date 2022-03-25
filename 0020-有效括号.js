@@ -14,7 +14,6 @@ var isValid = function (s) {
         return false
     } else {
         while (s.length > 0) {
-            // console.log("s", s);
             for (let i = 0; i < s.length; i++) {
                 // console.log("i:-->", i, "s[i]:-->", s[i]);
                 if (s[i] == '(' && s[i + 1] == ')' || s[i] == '[' && s[i + 1] == ']' || s[i] == '{' && s[i + 1] == '}') {
