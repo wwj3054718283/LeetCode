@@ -18,8 +18,3 @@ const maxTorF = (answerKey, k, ch) => {
   }
   return ans
 }
-console.log(maxConsecutiveAnswers("TTFTTTTTFT", 1));
-// console.log(maxConsecutiveAnswers("TF", 2));
-// console.log(maxConsecutiveAnswers("TTFF", 2));
-// console.log(maxConsecutiveAnswers("TFFT", 1));
-// console.log(maxConsecutiveAnswers("TTFTTFTT", 1));
