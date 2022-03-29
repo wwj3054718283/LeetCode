@@ -43,7 +43,7 @@ var twoSum = function (nums, target) {
 // 示例 3
 // console.log(twoSum([3, 3], 6));
 
-console.log(twoSum([2, 4, 11, 3], 6));
+// console.log(twoSum([2, 4, 11, 3], 6));
 // console.log(Math.floor(9/2));
 
 // var twoSum = function (nums, target) {
