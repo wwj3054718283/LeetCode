@@ -18,7 +18,7 @@ var isPalindrome = function (x) {
 };
 console.log(isPalindrome(121));
 
-// 思路：将 数字转为字符串数组，倒转字符串，让后转换为数字，对比原数与倒转数 判断是否相等
+// 思路：将数字转为字符串数组，倒转字符串，让后转换为数字，对比原数与倒转数 判断是否相等
 // var isPalindrome = function (x) {
 //     var arr = x.toString().split('')
 //     if (arr[0] == '-') {
