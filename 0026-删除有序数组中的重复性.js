@@ -18,8 +18,8 @@ var removeDuplicates = function (nums) {
     // 5.返回慢指针
     return i
 };
-console.log(removeDuplicates([1, 1, 2]));
-console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
+// console.log(removeDuplicates([1, 1, 2]));
+// console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
 
 // var removeDuplicates = function (nums) {
 //     for (let index = 0; index < nums.length; index++) {
